@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Fredoka:wght@300..700&family=Merienda:wght@300..900&family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    font-family: "Comic Relief", system-ui;
+    font-style: normal;
+    background: linear-gradient(to right,#FF9A8B, #FFD6A5	, #FFF5BA);
+    animation: gradientMove 10s ease infinite;
+}
+h1{
+    margin-top: 10px;
+    font-size: 40px;
+    color: #D72638;
+    text-shadow: 0 4px 4px rgb(122, 11, 11);
+}
+.container{
+    margin-top: 60px;
+    margin-left: 70px;
+    margin-right: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 50px;
+    color: 	#3E2723;
+}
+.boy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 350px;
+    width: 350px;
+    box-shadow: 0 5px 16px black;
+    border-radius: 20px;
+    background-color: #FFFFFF ;
+    cursor: pointer;
+}
+h2{
+    font-size: 35px;
+}
+p{
+    font-size: 30px;
+}
+.prev{
+    position: absolute;
+    top: 330px;
+    left: 50px;
+    height: 80px;
+    width: 40px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 1px 16px black;
+}
+.previous :hover{
+    background-color: #f5f3b7;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.prev i{
+    font-size: 30px;
+    color: #3E2723;
+}
+.next{
+    position: relative;
+    top: -380px;
+    left: 1720px;
+    height: 80px;
+    width: 40px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 1px 16px black;
+    
+}
+a{
+    text-decoration: none;
+}
+.next:hover{
+    background-color: #f5f3b7;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.next i{
+    font-size: 30px;
+    color: #3E2723;
+}

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Fredoka:wght@300..700&family=Merienda:wght@300..900&family=Poppins:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;  
+}
+h1{
+    color: #1569ad;
+    font-size: 3rem;
+    text-shadow: 2px 4px 4px rgb(63, 55, 55);
+}
+.hdiv{
+    height: 60px;
+    width: 400px;
+    margin-left: 195px;
+    padding-bottom: 10px;
+    box-shadow: 0 8px 20px rgb(105, 107, 107);
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+h2{
+    margin-top: 50px;
+    color: #1569ad;
+    font-size: 2rem;
+    text-shadow: 2px 3px 2px rgb(56, 54, 54);
+}
+.body{
+    display: inline-block;
+}
+
+.para{
+    margin-left: 150px;
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    left: 250px;
+    bottom: 450px;
+}
+.parafont{
+    color:#105fa0;
+    font-size: 2.75rem;
+    text-shadow: 2px 3px 3px rgb(27, 26, 26);
+}
+.landing{
+    height: 700px;
+    width: 800px;
+    margin-top: 50px;
+    margin-bottom:10px ;
+    margin-left: 800px;
+    margin-right: 20px;
+    padding-top: 20px ;
+    border: 1px solid white;
+    box-shadow:  0 8px 32px rgb(15, 15, 15);
+    border-radius: 20px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    align-items: center;
+}
+.image{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border: 1.5px solid black;
+    border-style: groove;
+    border-radius: 40px;
+    box-shadow: 2px 3px 3px rgb(54, 53, 53);
+}
+
+body{
+    font-family: "Comic Relief", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    background-image: url("/skybg---.jpg");
+    background-size: cover;
+}
+ p{
+    color: #105fa0;
+    font-size: 2.75rem;
+    text-shadow: 2px 3px 3px rgb(27, 26, 26);
+ }
+ .image:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+    overflow: hidden;
+ }
+.options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.option1 , .option2{
+    margin: 40px 40px 40px 40px;
+}
+
+@media  screen and (max-width : 800px){
+    .options{
+        flex-direction: column;
+    }
+    .option1 {
+         margin-bottom: 0.5rem;
+    }
+    .option2{
+        margin-top: 0.25rem;
+    }
+    h2{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+}
