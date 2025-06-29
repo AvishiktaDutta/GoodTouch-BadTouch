@@ -21,7 +21,7 @@ body{
     border: 1px solid rgb(252, 250, 250);
     border-radius: 20px;
     padding-top:28px;
-    background-image: url("/Boy\ Happy.jpg");
+    background-image: url("./Boy\ Happy.jpg");
     object-fit: cover;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -47,7 +47,7 @@ body{
     border: 1px solid white;
     border-radius: 20px;
     padding-top:28px;
-    background-image: url("/boy\ sad.jpg");
+    background-image: url("./boy\ sad.jpg");
     object-fit: cover;
     display: grid;
     grid-template-columns: 1fr 1fr;
